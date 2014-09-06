@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "ladda-rails"
-  s.version     = "0.9.2"
+  s.version     = "0.9.4"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Martin Tepper"]
   s.email       = ["mt@promptus-partners.de"]
