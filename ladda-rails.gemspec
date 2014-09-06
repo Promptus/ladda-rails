@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |s|
   s.name        = "ladda-rails"
-  s.version     = "0.9.2"
+  s.version     = "0.9.4"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Martin Tepper"]
   s.email       = ["mt@promptus-partners.de"]
   s.homepage    = "https://github.com/Promptus/ladda-rails"
-  s.summary     = "Use Ladda with Rails 3"
-  s.description = "This gem Ladda CSS and JS in a convenient fashion."
+  s.summary     = "Use Ladda with Rails 3 and 4"
+  s.description = "Ladda CSS and JS in a convenient fashion."
   s.license     = "MIT"
 
   s.required_rubygems_version = ">= 1.3.6"
