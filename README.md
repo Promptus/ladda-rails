@@ -7,7 +7,7 @@ If you copy files from the interwebs into your project, kittens die.
 
 Do this instead (in your Gemfile):
 
-    gem "ladda-rails", :git => "git://github.com/Promptus/ladda-rails.git"
+    gem "ladda-rails"
 
 And, in your application.js and application.css:
 
@@ -16,6 +16,6 @@ And, in your application.js and application.css:
     //= require "ladda.jquery" // only when you use jQuery already, see Ladda docs for usage
 
     *= require ladda
-    *= require ladda-theme // this is optional - when you leave this out, it's equivalent to the "ladda-themeless.min.css from the Ladda project
+    *= require ladda-themed // this is optional - when you leave this out, it's equivalent to the "ladda-themeless.min.css from the Ladda project
 
 We'll try to keep this project's version numbers the same as those from Ladda.
